@@ -29,7 +29,21 @@ class Student{
         grade=s;
     }
 
+   void getname(){
+      cout<<name<<endl;
+   }
+   void getage(){
+      cout<<age<<endl;
+   }
+   int getroll_no(){
+     return roll_number;
+   }
+   string get_grade(int pin){
+    if(pin==123)
+        return grade;
+    return "Wrong";    
 
+   }
 
 };
 
@@ -40,7 +54,10 @@ int main(){
     s1.setage(22);
     s1.setroll_number(122);
     s1.setgrade("B+");
-
+    s1.getname();
+    s1.getage();
+    cout<<s1.getroll_no();
+    cout<<s1.get_grade(123)<<endl;
     
 
 }

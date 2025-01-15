@@ -32,6 +32,14 @@ int main(){
 
    cout<<s2.name<<" "<<s2.age<<" "<<s2.roll_number<<" "<<s2.grade<<" "<<endl;
 
+    Student s3;
+
+    s3.name="Pratik";
+    s3.age=26;
+    s3.roll_number=1742;
+    s3.grade="C+";
+
+   cout<<s3.name<<" "<<s3.age<<" "<<s3.roll_number<<" "<<s3.grade<<" "<<endl;
 
 }
 

@@ -20,9 +20,18 @@ int main(){
     s1.roll_number=143;
     s1.grade="A+";
 
-    cout<<s1.name<<" "<<s1.age<<" "<<s1.roll_number<<" "<<s1.grade<<" ";
+    cout<<s1.name<<" "<<s1.age<<" "<<s1.roll_number<<" "<<s1.grade<<" "<<endl;
 
-    
+    Student s2;
+
+    s2.name="Vishal";
+    s2.age=22;
+    s2.roll_number=1235;
+    s2.grade="B+";
+
+   cout<<s2.name<<" "<<s2.age<<" "<<s2.roll_number<<" "<<s2.grade<<" "<<endl;
+
+
 }
 
 // Now if i want to print the age name or roll number it will not be printed why? because by default it is private inside the class

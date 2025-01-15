@@ -12,10 +12,35 @@ class Student{
     int age, roll_number;
     string grade;
 
+    //Function getter and setter
+    public:
+
+    void setname(string s){
+        name=s;
+    }
+
+    void setage(int a){
+        age=a;
+    }
+    void setroll_number(int r){
+        roll_number=r;
+    }
+    void setgrade(string s){
+        grade=s;
+    }
+
+
+
 };
 
 int main(){
-    //here student is data type and s1 is object or variable
+    
+    Student s1;
+    s1.setname("Prince");
+    s1.setage(22);
+    s1.setroll_number(122);
+    s1.setgrade("B+");
+
     
 
 }

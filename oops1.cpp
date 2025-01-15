@@ -21,4 +21,6 @@ int main(){
 
 //but what if we have we want to store 100 student or 1000 or others then what we shoudl we do we can create class
 
+
+
 }

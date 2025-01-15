@@ -13,6 +13,7 @@ class Student{
 };
 
 int main(){
+    //here student is data type and s1 is object or variable
     Student s1;
 
     s1.name="Prince";
